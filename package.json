@@ -1,0 +1,19 @@
+{
+  "name": "express-ejs",
+  "version": "0.1.0",
+  "description": "",
+  "main": "server.mjs",
+  "scripts": {
+    "start": "PORT=80 node server.mjs",
+    "start:dev": "PORT=3000 nodemon server.mjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.19.1"
+  }
+}
